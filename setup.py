@@ -8,6 +8,7 @@ python_version = sys.version_info[:2]
 assert python_version in ((2, 6), (2, 7)) or python_version >= (3, 3), \
         'The New Relic Python agent only supports Python 2.6, 2.7 and 3.3+.'
 
+
 with_setuptools = False
 
 try:
